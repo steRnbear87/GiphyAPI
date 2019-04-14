@@ -19,7 +19,7 @@ $(document).ready(() => {
     function displayTitles(array) {
         topicsSection.empty();
         array.forEach(element => {
-            topicsSection.append(`<button type="button" class="title btn btn-outline-primary">${element}</button>`);
+            topicsSection.append(`<button type="button" class="title btn btn-outline-success">${element}</button>`);
         });
     }
 

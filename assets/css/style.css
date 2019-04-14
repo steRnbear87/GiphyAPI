@@ -1,3 +1,7 @@
 .card {
     width: 15rem;
 }
+
+body {
+    background-color: black;
+}
